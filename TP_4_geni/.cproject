@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="intel.config.oneapi.icx.exe.debug.1595081516">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="intel.config.oneapi.icx.exe.debug.1595081516" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ICCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="intel.config.oneapi.icx.exe.debug.1595081516" name="Debug" parent="intel.config.oneapi.icx.exe.debug">
+					<folderInfo id="intel.config.oneapi.icx.exe.debug.1595081516." name="/" resourcePath="">
+						<toolChain id="intel.toolchain.oneapi.icx.exe.debug.1106766415" name="Intel C++ Compiler" superClass="intel.toolchain.oneapi.icx.exe.debug">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="intel.platform.oneapi.icx.base.380213904" isAbstract="false" name="intel.platform.icx.base" osList="linux" superClass="intel.platform.oneapi.icx.base"/>
+							<builder buildPath="${workspace_loc:/TP_4_geni}/Debug" id="intel.builder.oneapi.icx.makebuilder.601314383" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="intel.builder.oneapi.icx.makebuilder"/>
+							<tool id="intel.tool.archiver.oneapi.icx.base.1859964615" name="Intel Archiver" superClass="intel.tool.archiver.oneapi.icx.base"/>
+							<tool id="intel.tool.cpp.compiler.oneapi.icx.base.1186126277" name="Intel C++ Compiler" superClass="intel.tool.cpp.compiler.oneapi.icx.base">
+								<option defaultValue="true" id="intel.compilestep.general.debug.1061022679" name="Include Debug Information (-g)" superClass="intel.compilestep.general.debug" useByScannerDiscovery="false" valueType="boolean"/>
+								<option defaultValue="general.opt.none" id="intel.compilestep.general.optimization2.1080582564" name="Optimization Level" superClass="intel.compilestep.general.optimization2" useByScannerDiscovery="false" valueType="enumerated"/>
+								<inputType id="intel.cpp.compilestep.input.2052226165" name="C Sources" superClass="intel.cpp.compilestep.input"/>
+								<inputType id="intel.cpp.compilestep.asm.primary.1241631275" superClass="intel.cpp.compilestep.asm.primary"/>
+								<inputType id="intel.cpp.compilestep.asm.1070410428" superClass="intel.cpp.compilestep.asm"/>
+							</tool>
+							<tool id="intel.tool.c.compiler.oneapi.icx.base.319677030" name="Intel C Compiler" superClass="intel.tool.c.compiler.oneapi.icx.base">
+								<option defaultValue="true" id="intel.compilestep.general.debug.278608233" name="Include Debug Information (-g)" superClass="intel.compilestep.general.debug" useByScannerDiscovery="false" valueType="boolean"/>
+								<option defaultValue="general.opt.none" id="intel.compilestep.general.optimization2.1923015452" name="Optimization Level" superClass="intel.compilestep.general.optimization2" useByScannerDiscovery="false" valueType="enumerated"/>
+								<inputType id="intel.c.compilestep.input.1315614096" name="C Sources" superClass="intel.c.compilestep.input"/>
+								<inputType id="intel.c.compilestep.asm.primary.954668680" superClass="intel.c.compilestep.asm.primary"/>
+								<inputType id="intel.c.compilestep.asm.1771550342" superClass="intel.c.compilestep.asm"/>
+							</tool>
+							<tool id="intel.tool.cpp.linker.oneapi.icx.base.279499267" name="Intel C++ Linker" superClass="intel.tool.cpp.linker.oneapi.icx.base">
+								<inputType id="intel.linkstep.input.1965331995" superClass="intel.linkstep.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="intel.tool.c.linker.oneapi.icx.base.131294609" name="Intel C Linker" superClass="intel.tool.c.linker.oneapi.icx.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="intel.config.oneapi.icx.exe.release.1868683682">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="intel.config.oneapi.icx.exe.release.1868683682" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ICCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="intel.config.oneapi.icx.exe.release.1868683682" name="Release" parent="intel.config.oneapi.icx.exe.release">
+					<folderInfo id="intel.config.oneapi.icx.exe.release.1868683682." name="/" resourcePath="">
+						<toolChain id="intel.toolchain.oneapi.icx.exe.release.614390889" name="Intel C++ Compiler" superClass="intel.toolchain.oneapi.icx.exe.release">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="intel.platform.oneapi.icx.base.429884990" isAbstract="false" name="intel.platform.icx.base" osList="linux" superClass="intel.platform.oneapi.icx.base"/>
+							<builder buildPath="${workspace_loc:/TP_4_geni}/Release" id="intel.builder.oneapi.icx.makebuilder.137549193" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="intel.builder.oneapi.icx.makebuilder"/>
+							<tool id="intel.tool.archiver.oneapi.icx.base.1405942171" name="Intel Archiver" superClass="intel.tool.archiver.oneapi.icx.base"/>
+							<tool id="intel.tool.cpp.compiler.oneapi.icx.base.2028130443" name="Intel C++ Compiler" superClass="intel.tool.cpp.compiler.oneapi.icx.base">
+								<option defaultValue="false" id="intel.compilestep.general.debug.1428724399" name="Include Debug Information (-g)" superClass="intel.compilestep.general.debug" useByScannerDiscovery="false" valueType="boolean"/>
+								<option defaultValue="general.opt.speed" id="intel.compilestep.general.optimization2.29444982" name="Optimization Level" superClass="intel.compilestep.general.optimization2" useByScannerDiscovery="false" valueType="enumerated"/>
+								<inputType id="intel.cpp.compilestep.input.425852985" name="C Sources" superClass="intel.cpp.compilestep.input"/>
+								<inputType id="intel.cpp.compilestep.asm.primary.1380173668" superClass="intel.cpp.compilestep.asm.primary"/>
+								<inputType id="intel.cpp.compilestep.asm.1854591578" superClass="intel.cpp.compilestep.asm"/>
+							</tool>
+							<tool id="intel.tool.c.compiler.oneapi.icx.base.1549242234" name="Intel C Compiler" superClass="intel.tool.c.compiler.oneapi.icx.base">
+								<option defaultValue="false" id="intel.compilestep.general.debug.1211537139" name="Include Debug Information (-g)" superClass="intel.compilestep.general.debug" useByScannerDiscovery="false" valueType="boolean"/>
+								<option defaultValue="general.opt.speed" id="intel.compilestep.general.optimization2.1822438731" name="Optimization Level" superClass="intel.compilestep.general.optimization2" useByScannerDiscovery="false" valueType="enumerated"/>
+								<inputType id="intel.c.compilestep.input.154531737" name="C Sources" superClass="intel.c.compilestep.input"/>
+								<inputType id="intel.c.compilestep.asm.primary.1928264873" superClass="intel.c.compilestep.asm.primary"/>
+								<inputType id="intel.c.compilestep.asm.1033692091" superClass="intel.c.compilestep.asm"/>
+							</tool>
+							<tool id="intel.tool.cpp.linker.oneapi.icx.base.1407438943" name="Intel C++ Linker" superClass="intel.tool.cpp.linker.oneapi.icx.base">
+								<inputType id="intel.linkstep.input.945923833" superClass="intel.linkstep.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="intel.tool.c.linker.oneapi.icx.base.2127008073" name="Intel C Linker" superClass="intel.tool.c.linker.oneapi.icx.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="TP_4_geni.intel.target.oneapi.icx.exe.882136951" name="Executable" projectType="intel.target.oneapi.icx.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
